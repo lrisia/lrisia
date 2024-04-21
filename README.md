@@ -11,6 +11,7 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 
 ## ⭐️ GitHub Stats
 ![Profile views](https://komarev.com/ghpvc/?username=lrisia&color=orange)
+[![GitHub followers](https://img.shields.io/github/followers/lrisia?style=social&label=Follower)](https://github.com/lrisia/lrisia)  
 ![Github stats](https://pixel-profile.vercel.app/api/github-stats?username=lrisia&theme=summer&pixelate_avatar=false&screen_effect=true)
 
 ## 💻 Favorite Tech
@@ -19,8 +20,9 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 ![My Fav](https://skillicons.dev/icons?i=nodejs,ts,python,mongo,tailwind,docker,git,postman,vscode,discord)
 
 ## Where to find me
-[![Linkedin Badge](https://img.shields.io/badge/-linkedin-0072b1?style=flat&labelColor=0072b1&logo=Linkedin&link=https://www.linkedin.com/in/irisia)](https://www.linkedin.com/in/irisia)
-[![Medium Badge](https://img.shields.io/badge/-medium-000000?style=flat&labelColor=000000&logo=Medium&link=https://medium.com/@iricea)](https://medium.com/@iricea)
+[![Linkedin Badge](https://img.shields.io/badge/-linkedin-0072b1?style=flat&labelColor=0072b1&logo=Linkedin)](https://www.linkedin.com/in/irisia)
+[![Medium Badge](https://img.shields.io/badge/-medium-000000?style=flat&labelColor=000000&logo=Medium)](https://medium.com/@iricea)
+[![Spotify Badge](https://img.shields.io/badge/Spotify-1ED760?&style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/wu6s8uphlppuab55xm340xa2p)
 
 ### 📝 Latest Blog Posts
 
@@ -31,3 +33,4 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 
 <br>
 ⏰ Updated on: Mon Apr 22 2024 02:56:07 GMT+0700 (Indochina Time)
+
