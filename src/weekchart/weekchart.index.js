@@ -1,4 +1,9 @@
+import config from "../config.js";
 import browserServiceFactory from "../services/browser.service.js";
+
+function weeksBetween(d1, d2) {
+  return Math.round((d2 - d1) / (7 * 24 * 60 * 60 * 1000));
+}
 
 export default async function generateWeekchartImage() {
   const browserService = browserServiceFactory;
@@ -18,4 +23,6 @@ export default async function generateWeekchartImage() {
     fullPage: false,
   });
   await browserService.close();
+  const today = new Date();
+  return weeksBetween(config.birthday, today);
 }

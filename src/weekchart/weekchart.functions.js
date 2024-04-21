@@ -23,7 +23,7 @@ function createBox(color = randomColor()) {
 function createWeekChart() {
   const weekChart = document.getElementById("week-chart-container");
   const today = new Date();
-  const start = new Date(2002, 9, 16);
+  const start = new Date(2002, 8, 16);
   const weeks = weeksBetween(start, today);
   const weekLeft = 4000 - weeks;
   for (let i = 0; i < weeks; i++) {
