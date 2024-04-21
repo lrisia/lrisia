@@ -11,9 +11,9 @@ function writeReadme(percent) {
     console.log("No README.md found");
   }
 
-  const mediumPostList = str.substring(
-    str.indexOf("<!-- MEDIUM:START -->") + 1,
-    str.lastIndexOf("<!-- MEDIUM:END -->")
+  const mediumPostList = oldReadme.substring(
+    oldReadme.indexOf("<!-- MEDIUM:START -->") + "<!-- MEDIUM:START -->".length,
+    oldReadme.lastIndexOf("<!-- MEDIUM:END -->")
   );
 
   const readme = `\
@@ -46,9 +46,10 @@ So far, I do. For me, it was approximately ${Math.round(
 ### 📝 Latest Blog Posts
 
 <!-- MEDIUM:START -->
-${mediumPostList}
+${mediumPostList.trim()}
 <!-- MEDIUM:END -->
 
+<br>
 ⏰ Updated on: ${now}
 `;
   fs.writeFileSync("./README.md", readme);
