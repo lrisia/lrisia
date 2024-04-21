@@ -1,0 +1,22 @@
+name: Latest Medium post workflow
+on:
+  schedule:
+    # Runs every day
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-medium:
+    name: Update this repo's README.md with with latest activity from Medium
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Pull Medium post
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          comment_tag_name: "MEDIUM"
+          feed_list: "medium.com/feed/@lricea"
+          commit_message: "[AUTO] update latest blog from Medium"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
