@@ -24,7 +24,7 @@ function writeReadme(percent) {
 
 So far, I do. For me, it was approximately ${Math.round(
     (percent / 4000) * 100
-  )}% of my life; it was the beginning of my professional career. And I've decided to spend it doing software engineering. 
+  )}% of my life; It was the beginning of the career period. And I've decided to use it as *Software developer*. 
 
 📊 So, this graph represents my remaining life time spent attempting to improve and learn new things every day.
 
