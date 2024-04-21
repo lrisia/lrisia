@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript" src="weekchart.functions.js"></script>
+
+<body onload="createWeekChart()">
+  <div id="week-chart-container">
+  </div>
+</body>
+</html>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #week-chart-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
+    width: 2000px;
+  }
+
+  .box {
+    width: 10px;
+    height: 10px;
+    border: 0.5px solid white;
+  }
+</style>
