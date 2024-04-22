@@ -2,6 +2,7 @@ import * as fs from "fs";
 import generateWeekchartImage from "./src/weekchart/weekchart.index.js";
 
 function writeReadme(percent) {
+  console.log(percent)
   const now = new Date();
 
   let oldReadme = "";

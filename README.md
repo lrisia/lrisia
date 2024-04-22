@@ -31,4 +31,8 @@ So far, I do. For me, it was approximately NaN% of my life; It was the beginning
 <!-- MEDIUM:END -->
 
 <br>
+<<<<<<< HEAD
 ⏰ Updated on: Mon Apr 22 2024 07:05:49 GMT+0000 (Coordinated Universal Time)
+=======
+⏰ Updated on: Mon Apr 22 2024 14:07:01 GMT+0700 (Indochina Time)
+>>>>>>> bc46e08 (add log into index)
