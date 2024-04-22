@@ -24,8 +24,5 @@ export default async function generateWeekchartImage() {
   });
   await browserService.close();
   const today = new Date();
-  console.log('Today:', today);
-  console.log('Birthday:', config.birthday);
-  console.log('Week difference:', weeksBetween(config.birthday, today));
   return weeksBetween(config.birthday, today);
 }
