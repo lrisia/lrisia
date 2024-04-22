@@ -19,6 +19,7 @@ jobs:
         node-version: 20
     - name: Install package
       run: npm install
+    - run: env
     - name: Update README.md
       run: node index.js
       env:
