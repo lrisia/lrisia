@@ -38,7 +38,7 @@ So far, I do. For me, it was approximately ${Math.round(
 ## 💻 Favorite Tech
 🔬 Tools, languages, and other things that I like to work with.
 
-![My Fav](https://skillicons.dev/icons?i=nodejs,ts,python,mongo,tailwind,docker,git,postman,vscode,discord)
+![My Fav](https://skillicons.dev/icons?i=nodejs,ts,python,mongo,mysql,tailwind,docker,git,postman,vscode,discord)
 
 ## Where to find me
 [![Linkedin Badge](https://img.shields.io/badge/-linkedin-0072b1?style=flat&labelColor=0072b1&logo=Linkedin)](https://www.linkedin.com/in/irisia)
