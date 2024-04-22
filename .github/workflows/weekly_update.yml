@@ -10,12 +10,14 @@ permissions:
 jobs:
   weekly-update-weekchart:
     runs-on: ubuntu-latest
-
+    # env:
+    #   BIRTHDAY: ${{ env.BIRTHDAY }}
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js
       uses: actions/setup-node@v1
       with:
+        token: ${{ secrets.GITHUB_TOKEN }}
         node-version: 20
     - name: Install package
       run: npm install
@@ -23,7 +25,7 @@ jobs:
       run: node index.js > README.md
     - name: Commit change & Push
       run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # git config user.name 'github-actions[bot]'
+          # git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -am "[AUTO] update weekchart to README.md automatically"
           git push
