@@ -19,7 +19,6 @@ jobs:
         node-version: 20
     - name: Install package
       run: npm install
-    - run: "echo ${{ env.BIRTHDAY }}"
     - name: Update README.md
       run: node index.js
       env:
