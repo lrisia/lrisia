@@ -10,12 +10,12 @@ permissions:
 jobs:
   weekly-update-weekchart:
     runs-on: ubuntu-latest
-    # env:
-    #   BIRTHDAY: ${{ env.BIRTHDAY }}
+    env:
+      BIRTHDAY: ${{ env.BIRTHDAY }}
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         node-version: 20
