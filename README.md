@@ -1,7 +1,7 @@
 # Hi there 👋 How are you doing
 
-### Did you know? The average human life spans 4,000 weeks.
-❓ **Do you have statistics the way you use?**
+### Did you know? the average human life spans 4,000 weeks.
+❓ **Do you have statistics about how you use?**
 
 So far, I do. For me, it was approximately 28% of my life; It was the beginning of the career period. And I've decided to use it as *Software developer*. 
 
@@ -11,7 +11,7 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 
 ## ⭐️ GitHub Stats
 ![Profile views](https://komarev.com/ghpvc/?username=lrisia&color=orange)
-[![GitHub followers](https://img.shields.io/github/followers/lrisia?style=social&label=Follower)](https://github.com/lrisia/lrisia)  
+[![GitHub followers](https://img.shields.io/github/followers/lrisia?style=social&label=Follower)](https://github.com/lrisia/lrisia)
 ![Github stats](https://pixel-profile.vercel.app/api/github-stats?username=lrisia&theme=summer&pixelate_avatar=false&screen_effect=true)
 
 ## 💻 Favorite Tech
@@ -32,5 +32,4 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 <!-- MEDIUM:END -->
 
 <br>
-⏰ Updated on: Mon Apr 22 2024 02:56:07 GMT+0700 (Indochina Time)
-
+⏰ Updated on: Mon Apr 22 2024 13:36:34 GMT+0700 (Indochina Time)

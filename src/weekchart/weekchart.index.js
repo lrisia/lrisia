@@ -7,7 +7,7 @@ function weeksBetween(d1, d2) {
 
 export default async function generateWeekchartImage() {
   const browserService = browserServiceFactory;
-  const url = `file:///Users/irisialightsky/General/Dev/lrisia/src/weekchart/index.html`;
+  const url = `file://${process.cwd()}/src/weekchart/index.html`;
   await browserService.goto(url);
   const page = browserService.page;
   const dimensions = await page.evaluate(() => {
