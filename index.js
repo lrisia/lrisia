@@ -36,7 +36,7 @@ So far, I do. For me, it was approximately ${Math.round(
 ![Github stats](https://pixel-profile.vercel.app/api/github-stats?username=lrisia&theme=summer&pixelate_avatar=false&screen_effect=true)
 
 ## 💻 Favorite Tech
-🔬 Tools, languages, and other things that I like to work with.
+🔬 Tools, languages, and other things that I prefer to work with.
 
 ![My Fav](https://skillicons.dev/icons?i=nodejs,ts,python,mongo,mysql,tailwind,docker,git,postman,vscode,discord)
 
