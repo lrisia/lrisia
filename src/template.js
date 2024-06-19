@@ -22,7 +22,7 @@ So far, I do. For me, it was approximately ${Math.round(
 
 📊 So, this graph represents my remaining life time spent attempting to improve and learn new things every day.
 
-![weekchart.png](src/weekchart/weekchart.png)
+![weekchart.png](assets/weekchart.png)
 
 ## ⭐️ GitHub Stats
 ![Profile views](https://komarev.com/ghpvc/?username=lrisia&color=orange)
