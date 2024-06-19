@@ -1,4 +1,4 @@
-name: Latest Medium post workflow
+name: Latest Medium fetch workflow
 on:
   schedule:
     # Runs every day
