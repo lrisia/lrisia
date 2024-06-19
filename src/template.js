@@ -1,7 +1,7 @@
 /**
  *
  * @param {string} text The content of the README.md file
- * @param {{ pastWeek: number }} prop The number of weeks that have passed since birth
+ * @param {{ pastWeek: number, birthday: string }} prop The number of weeks that have passed since birth
  * @returns {string} The new content of the README.md file
  */
 export function createNewText(text, prop) {
@@ -12,6 +12,8 @@ export function createNewText(text, prop) {
 
   return `\
 # Hi there 👋 How are you doing
+
+birthday: ${prop.birthday}
 
 ### Did you know? the average human life spans around 4,000 weeks.
 ❓ **Do you satisfied how you use?**

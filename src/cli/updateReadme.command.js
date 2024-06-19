@@ -16,8 +16,14 @@ export class UpdateReadmeCommand {
       console.log("Reading README.md failed", error);
     }
 
-    const pastWeek = Time.weeksBetween(new Date(appConfig.BIRTHDAY), new Date())
-    const newText = createNewText(text, { pastWeek });
+    const pastWeek = Time.weeksBetween(
+      new Date(appConfig.BIRTHDAY),
+      new Date()
+    );
+    const newText = createNewText(text, {
+      pastWeek,
+      birthday: appConfig.BIRTHDAY,
+    });
 
     try {
       writeFileSync(readmePath, newText);
