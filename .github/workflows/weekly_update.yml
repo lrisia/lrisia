@@ -20,6 +20,8 @@ jobs:
     - name: Install package
       run: npm install
     - name: Update chart
+      env:
+        BIRTHDAY: ${{ secrets.BIRTHDAY }}
       run: node src/index.js weekchart:update
     - name: Update README.md
       run: node src/index.js readme:update

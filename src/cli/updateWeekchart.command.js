@@ -15,8 +15,6 @@ export class UpdateWeekchartCommand {
     );
     const htmlCode = readFileSync(htmlPagePath, "utf8");
 
-    console.log("Past week: ", pastWeek)
-
     const browserService = new BrowserService();
     await browserService.openHtml(
       htmlCode.replace("replaceFunctionHere()", `createWeekChart(${pastWeek})`)
