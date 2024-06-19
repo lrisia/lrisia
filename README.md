@@ -1,5 +1,7 @@
 # Hi there 👋 How are you doing
 
+birthday: 2002-09-16
+
 ### Did you know? the average human life spans around 4,000 weeks.
 ❓ **Do you satisfied how you use?**
 
@@ -34,4 +36,4 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 <!-- BLOG:END -->
 
 <br>
-⏰ Updated on: Wed Jun 19 2024 16:43:00 GMT+0000 (Coordinated Universal Time)
+⏰ Updated on: Wed Jun 19 2024 16:49:08 GMT+0000 (Coordinated Universal Time)
