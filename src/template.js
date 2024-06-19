@@ -1,29 +1,23 @@
-import * as fs from "fs";
-import generateWeekchartImage from "./src/weekchart/weekchart.index.js";
-
-function writeReadme(percent) {
-  const now = new Date();
-
-  let oldReadme = "";
-  try {
-    oldReadme = fs.readFileSync("./README.md", "utf8");
-  } catch (e) {
-    console.log("No README.md found");
-  }
-
-  const mediumPostList = oldReadme.substring(
-    oldReadme.indexOf("<!-- MEDIUM:START -->") + "<!-- MEDIUM:START -->".length,
-    oldReadme.lastIndexOf("<!-- MEDIUM:END -->")
+/**
+ *
+ * @param {string} text The content of the README.md file
+ * @param {{ pastWeek: number }} prop The number of weeks that have passed since birth
+ * @returns {string} The new content of the README.md file
+ */
+export function createNewText(text, prop) {
+  const mediumPostList = text.substring(
+    text.indexOf("<!-- BLOG:START -->") + "<!-- BLOG:START -->".length,
+    text.lastIndexOf("<!-- BLOG:END -->")
   );
 
-  const readme = `\
+  return `\
 # Hi there 👋 How are you doing
 
-### Did you know? the average human life spans 4,000 weeks.
-❓ **Do you have statistics about how you use?**
+### Did you know? the average human life spans around 4,000 weeks.
+❓ **Do you satisfied how you use?**
 
 So far, I do. For me, it was approximately ${Math.round(
-    (percent / 4000) * 100
+    (prop.pastWeek / 4000) * 100
   )}% of my life; It was the beginning of the career period. And I've decided to use it as *Software developer*. 
 
 📊 So, this graph represents my remaining life time spent attempting to improve and learn new things every day.
@@ -47,19 +41,11 @@ So far, I do. For me, it was approximately ${Math.round(
 
 ### 📝 Latest Blog Posts
 
-<!-- MEDIUM:START -->
+<!-- BLOG:START -->
 ${mediumPostList.trim()}
-<!-- MEDIUM:END -->
+<!-- BLOG:END -->
 
 <br>
-⏰ Updated on: ${now}
+⏰ Updated on: ${new Date()}
 `;
-  fs.writeFileSync("./README.md", readme);
 }
-
-async function main() {
-  const weeks = await generateWeekchartImage();
-  writeReadme(weeks);
-}
-
-main();

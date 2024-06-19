@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<script type="text/javascript" src="weekchart.functions.js"></script></script>
 
-<body onload="createWeekChart()">
+<body onload="replaceFunctionHere()">
   <div id="week-chart-container">
   </div>
 </body>
+
 </html>
 
 <style>
@@ -27,3 +27,36 @@
     border: 0.5px solid white;
   }
 </style>
+
+<script>
+  function randomColor() {
+    let color = "#";
+    do {
+      const letters = "0123456789ABCDEF";
+      for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+    } while (color === "#FFFFFF");
+    return color;
+  }
+
+  function createBox(color = randomColor()) {
+    const box = document.createElement("div");
+    box.classList.add("box");
+    box.style.backgroundColor = color;
+    return box;
+  }
+
+  function createWeekChart(weeks) {
+    const weekChart = document.getElementById("week-chart-container");
+    for (let i = 0; i < 4000; i++) {
+      let box;
+      if (i <= weeks) {
+        box = createBox();
+      } else {
+        box = createBox("#CFCFCF");
+      }
+      weekChart.innerHTML += box.outerHTML;
+    }
+  }
+</script>

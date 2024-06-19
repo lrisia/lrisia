@@ -1,50 +1,39 @@
 import puppeteer from "puppeteer";
 
-class BrowserService {
+export class BrowserService {
   browser;
-  page;
+  currentPage;
 
-  async init() {
-    this.browser = await puppeteer.launch({
-      args: [
-        "--no-sandbox",
-        "--disable-setuid-sandbox",
-        "--disable-infobars",
-        "--window-position=0,0",
-        "--ignore-certifcate-errors",
-        "--ignore-certifcate-errors-spki-list",
-        "--incognito",
-        "--proxy-server=http=194.67.37.90:3128",
-      ],
-    });
-  }
-
-  async newPage() {
-    this.page = await this.browser.newPage();
-  }
-
-  async goto(url) {
-    if (!this.browser) {
-      await this.init();
-    }
-    if (!this.page) {
-      await this.newPage();
+  async openHtml(htmlCode) {
+    if (this.browser === undefined) {
+      this.browser = await puppeteer.launch();
     }
 
-    await this.page.setExtraHTTPHeaders({
-      "Accept-Language": "en-US",
-    });
+    if (this.currentPage === undefined) {
+      this.currentPage = await this.browser.newPage();
+    }
 
-    await this.page.goto(url, {
-      waitUntil: `networkidle0`,
+    await this.currentPage.setContent(htmlCode, { waitUntil: "networkidle0" });
+  }
+
+  async captureCurrentPage(filename) {
+    const dimensions = await this.currentPage.evaluate(() => {
+      const body = document.querySelector("body");
+      return {
+        width: body.scrollWidth,
+        height: body.scrollHeight,
+      };
+    });
+    await this.currentPage.setViewport(dimensions);
+    await this.currentPage.screenshot({
+      path: `${process.cwd()}/assets/${filename}.png`,
+      fullPage: false,
     });
   }
 
-  async close() {
-    await this.page.close();
-    await this.browser.close();
+  async closePage() {
+    if (this.browser !== undefined) {
+      await this.browser.close();
+    }
   }
 }
-
-const browserServiceFactory = new BrowserService();
-export default browserServiceFactory;

@@ -1,17 +1,6 @@
-import dotenv from "dotenv";
+import weekchartConfig from "./weekchart/config.js";
 
-class Config {
-  constructor() {
-    dotenv.config();
-  }
-
-  load() {
-    const date = process.env.BIRTHDAY.split("-");
-    const birthday = new Date(date[0], date[1] - 1, date[2]);
-    return {
-      birthday: birthday,
-    };
-  }
-}
-
-export default new Config().load();
+export const appConfig = {
+  BIRTHDAY: process.env.BIRTHDAY ?? "1970-01-01",
+  ...weekchartConfig,
+};
