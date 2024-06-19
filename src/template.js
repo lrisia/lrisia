@@ -1,7 +1,9 @@
 /**
  *
  * @param {string} text The content of the README.md file
- * @param {{ pastWeek: number }} prop The number of weeks that have passed since birth
+ * @param {{ pastWeek: number, gitUsername: string }} prop
+ * pastWeek - The number of weeks that have passed since birth
+ * gitUsername - The GitHub username
  * @returns {string} The new content of the README.md file
  */
 export function createNewText(text, prop) {
@@ -25,9 +27,9 @@ So far, I do. For me, it was approximately ${Math.round(
 ![weekchart.png](assets/weekchart.png)
 
 ## ⭐️ GitHub Stats
-![Profile views](https://komarev.com/ghpvc/?username=lrisia&color=orange)
-[![GitHub followers](https://img.shields.io/github/followers/lrisia?style=social&label=Follower)](https://github.com/lrisia/lrisia)
-![Github stats](https://pixel-profile.vercel.app/api/github-stats?username=lrisia&theme=summer&pixelate_avatar=false&screen_effect=true)
+![Profile views](https://komarev.com/ghpvc/?username=${gitUsername}&color=orange)
+[![GitHub followers](https://img.shields.io/github/followers/${gitUsername}?style=social&label=Follower)](https://github.com/lrisia/lrisia)
+![Github stats](https://pixel-profile.vercel.app/api/github-stats?username=${gitUsername}&theme=summer&pixelate_avatar=false&screen_effect=true)
 
 ## 💻 Favorite Tech
 🔬 Tools, languages, and other things that I prefer to work with.
