@@ -7,7 +7,7 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 
 📊 So, this graph represents my remaining life time spent attempting to improve and learn new things every day.
 
-![weekchart.png](src/weekchart/weekchart.png)
+![weekchart.png](assets/weekchart.png)
 
 ## ⭐️ GitHub Stats
 ![Profile views](https://komarev.com/ghpvc/?username=lrisia&color=orange)
@@ -34,4 +34,4 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 <!-- BLOG:END -->
 
 <br>
-⏰ Updated on: Wed Jun 19 2024 16:26:03 GMT+0000 (Coordinated Universal Time)
+⏰ Updated on: Wed Jun 19 2024 16:28:16 GMT+0000 (Coordinated Universal Time)
