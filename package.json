@@ -2,8 +2,7 @@
   "name": "lrisia",
   "version": "1.0.0",
   "description": "<!-- **lrisia/lrisia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
-  "main": "index.js",
-  "type": "module",
+  "main": "src/index.ts",
   "scripts": {
     "start": "node index.js"
   },
@@ -11,7 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commander": "^12.1.0",
     "dotenv": "^16.4.5",
-    "puppeteer": "^22.6.5"
+    "puppeteer-core": "^22.11.1"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.5"
   }
 }
