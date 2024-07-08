@@ -10,9 +10,9 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 ![weekchart.png](assets/weekchart.png)
 
 ## ⭐️ GitHub Stats
-![Profile views](https://komarev.com/ghpvc/?username=lrisia&color=orange)
-[![GitHub followers](https://img.shields.io/github/followers/lrisia?style=social&label=Follower)](https://github.com/lrisia/lrisia)
-![Github stats](https://pixel-profile.vercel.app/api/github-stats?username=lrisia&theme=summer&pixelate_avatar=false&screen_effect=true)
+![Profile views](https://komarev.com/ghpvc/?username=$GIT_USERNAME&color=orange)
+[![GitHub followers](https://img.shields.io/github/followers/$GIT_USERNAME?style=social&label=Follower)](https://github.com/lrisia/lrisia)
+![Github stats](https://pixel-profile.vercel.app/api/github-stats?username=$GIT_USERNAME&theme=summer&pixelate_avatar=false&screen_effect=true)
 
 ## 💻 Favorite Tech
 🔬 Tools, languages, and other things that I prefer to work with.
@@ -34,4 +34,4 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 <!-- BLOG:END -->
 
 <br>
-⏰ Updated on: Wed Jun 19 2024 17:20:34 GMT+0000 (Coordinated Universal Time)
+⏰ Updated on: Mon Jul 08 2024 15:10:21 GMT+0000 (Coordinated Universal Time)
