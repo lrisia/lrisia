@@ -27,6 +27,7 @@ jobs:
       run: node src/index.js readme:update
       env:
         BIRTHDAY: ${{ secrets.BIRTHDAY }}
+        GIT_USERNAME: $GIT_USERNAME
     - name: Commit change & Push
       run: |
           git config user.name 'github-actions[bot]'
