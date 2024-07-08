@@ -27,9 +27,9 @@ So far, I do. For me, it was approximately ${Math.round(
 ![weekchart.png](assets/weekchart.png)
 
 ## ⭐️ GitHub Stats
-![Profile views](https://komarev.com/ghpvc/?username=${gitUsername}&color=orange)
-[![GitHub followers](https://img.shields.io/github/followers/${gitUsername}?style=social&label=Follower)](https://github.com/lrisia/lrisia)
-![Github stats](https://pixel-profile.vercel.app/api/github-stats?username=${gitUsername}&theme=summer&pixelate_avatar=false&screen_effect=true)
+![Profile views](https://komarev.com/ghpvc/?username=${prop.gitUsername}&color=orange)
+[![GitHub followers](https://img.shields.io/github/followers/${prop.gitUsername}?style=social&label=Follower)](https://github.com/lrisia/lrisia)
+![Github stats](https://pixel-profile.vercel.app/api/github-stats?username=${prop.gitUsername}&theme=summer&pixelate_avatar=false&screen_effect=true)
 
 ## 💻 Favorite Tech
 🔬 Tools, languages, and other things that I prefer to work with.
