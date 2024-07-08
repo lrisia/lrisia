@@ -22,7 +22,7 @@ export class UpdateReadmeCommand {
     );
     const newText = createNewText(text, {
       pastWeek,
-      birthday: appConfig.BIRTHDAY,
+      gitUsername: appConfig.GITHUB_USERNAME,
     });
 
     try {
