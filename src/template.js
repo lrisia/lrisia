@@ -49,5 +49,9 @@ ${mediumPostList.trim()}
 
 <br>
 ⏰ Updated on: ${new Date()}
+
+<br><hr>
+
+To use this template, you can check [here](docs/SETUP_INSTRUCTION.md)
 `;
 }

@@ -34,4 +34,8 @@ So far, I do. For me, it was approximately 28% of my life; It was the beginning 
 <!-- BLOG:END -->
 
 <br>
-⏰ Updated on: Mon Jul 15 2024 00:32:03 GMT+0000 (Coordinated Universal Time)
+⏰ Updated on: Thu Jul 18 2024 01:42:41 GMT+0700 (Indochina Time)
+
+<br><hr>
+
+To use this template, you can check [here](docs/SETUP_INSTRUCTION.md)

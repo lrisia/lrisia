@@ -38,7 +38,7 @@ About who that wants to modify this project, here is the project architecture.
 ├── assets/                  - Collect static files.
 ├── docs/
 ├── src/
-│   ├── cli/                 - This project's CLI base. So every command are here.
+│   ├── cli/                 - This project is CLI based. So every command are here.
 │   ├── services/            - 3rd party services are here.
 │   ├── utils/               - Defined utility functions here.
 │   ├── modules/             - Each module collect nessesary files (if have) for each feature of the project.
