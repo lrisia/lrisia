@@ -24,10 +24,10 @@ For run this project locally, It required to create a `.env` file in the root di
 But easier way is copy `.env.example` file to `.env` and fill the variables. 
 
 Anyway, finaly this project must be running on the Github. So about the environment variables, It must be set on Github. 
-For create environment variables for repository just follow this documentation https://docs.github.com/en/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository
+For create environment variables for repository just follow this [documentation](https://docs.github.com/en/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository)
 
-> [!NOTE]
-> Which environment variables are secret, you can find in the `.env.example` file.
+> [!WARNING]
+> Which environment variables are secret, you can find in the `.env.example` file. Workflow won't work correctly if variables aren't in the right place.
 
 ## Architecture
 About who that wants to modify this project, here is the project architecture.

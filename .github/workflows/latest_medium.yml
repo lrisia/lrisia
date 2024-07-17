@@ -17,6 +17,6 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           comment_tag_name: "MEDIUM"
-          feed_list: "https://medium.com/feed/@Iricea"
+          feed_list: ${{ vars.MEDIUM_RSS_FEEDS }}
           commit_message: "[AUTO] update latest blog from Medium"
           gh_token: ${{ secrets.GITHUB_TOKEN }}
