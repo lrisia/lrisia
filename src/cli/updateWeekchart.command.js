@@ -8,7 +8,7 @@ export class UpdateWeekchartCommand {
     console.log("Start updating weekchart...");
 
     const rootPath = process.cwd();
-    const htmlPagePath = rootPath + "/src/weekchart/index.html";
+    const htmlPagePath = rootPath + "/src/modules/weekchart/index.html";
     const pastWeek = Time.weeksBetween(
       new Date(appConfig.BIRTHDAY),
       new Date()

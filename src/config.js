@@ -1,4 +1,4 @@
-import weekchartConfig from "./weekchart/config.js";
+import weekchartConfig from "./modules/weekchart/config.js";
 
 export const appConfig = {
   BIRTHDAY: process.env.BIRTHDAY ?? "1970-01-01",
