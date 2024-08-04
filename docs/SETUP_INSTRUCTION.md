@@ -27,7 +27,7 @@ Anyway, finaly this project must be running on the Github. So about the environm
 For create environment variables for repository just follow this [documentation](https://docs.github.com/en/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository)
 
 > [!WARNING]
-> Which environment variables are secret, you can find in the `.env.example` file. Workflow won't work correctly if variables aren't in the right place.
+> Which environment variables will be secret, you can find in the `.env.example` file. Workflow won't work correctly if variables aren't in the right place.
 
 ## Architecture
 About who that wants to modify this project, here is the project architecture.
