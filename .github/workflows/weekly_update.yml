@@ -1,7 +1,7 @@
 name: Weekly update weekchart
 on:
   schedule:
-    # Runs every day
+    # Runs every Monday
     - cron: '1 0 * * mon'
   workflow_dispatch:
 permissions:
@@ -17,6 +17,8 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         node-version: 20
+    - name: Install chromium
+      run: sudo apt-get install chromium-browser
     - name: Install package
       run: npm install
     - name: Update chart

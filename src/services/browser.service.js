@@ -6,7 +6,9 @@ export class BrowserService {
 
   async openHtml(htmlCode) {
     if (this.browser === undefined) {
-      this.browser = await puppeteer.launch();
+      this.browser = await puppeteer.launch({
+        executablePath: '/usr/bin/chromium-browser',
+      });
     }
 
     if (this.currentPage === undefined) {
