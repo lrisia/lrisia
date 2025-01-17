@@ -1,7 +1,7 @@
 name: Latest Medium fetch workflow
 on:
   schedule:
-    # Runs every day
+    # Runs every thu day
     - cron: '0 0 * * THU'
   workflow_dispatch:
 permissions:
