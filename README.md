@@ -3,7 +3,7 @@
 ### Did you know? the average human life spans around 4,000 weeks.
 ❓ **Do you satisfied how you use?**
 
-So far, I do. For me, it was approximately 29% of my life; It was the beginning of the career period. And I've decided to use it as *Software developer*. 
+So far, I do. For me, it was approximately 30% of my life; It was the beginning of the career period. And I've decided to use it as *Software developer*. 
 
 📊 So, this graph represents my remaining life time spent attempting to improve and learn new things every day.
 
@@ -34,7 +34,7 @@ So far, I do. For me, it was approximately 29% of my life; It was the beginning 
 <!-- BLOG:END -->
 
 <br>
-⏰ Updated on: Mon Apr 21 2025 01:59:02 GMT+0000 (Coordinated Universal Time)
+⏰ Updated on: Mon Apr 28 2025 01:58:44 GMT+0000 (Coordinated Universal Time)
 
 <br><hr>
 
